@@ -1,2 +1,15 @@
 # Smart-home-t5-small-
-Fine-tuned T5 to translate smart home instructions into function calls using Hugging Face. Evaluated with Exact Match &amp; Levenshtein.
+🏠 Smart Home Command Understanding
+This project fine-tunes a T5 model using Hugging Face Transformers to map natural language smart home instructions into structured function-like commands (e.g., "Turn on the lights" → TurnOn(lights)).
+
+Includes:
+
+✅ Tokenization
+
+✅ Fine-tuning with Trainer
+
+✅ Custom evaluation using Exact Match and Levenshtein Similarity
+
+Built for smart home NLU, API automation, and assistant development.
+
+
